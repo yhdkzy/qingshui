@@ -1,7 +1,6 @@
 !(function (doc, win) {
     var el = doc.documentElement;
     //resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
-
     function setSize() {
         var w = el.clientWidth;
         if (!w) return;
